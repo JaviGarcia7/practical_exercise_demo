@@ -18,30 +18,20 @@ Before running the tests, ensure you have the following installed:
 ○ Google Chrome (Latest version)
 ○ ChromeDriver (Compatible with your Chrome version)
 
-Project Structure:
-
-practical_exercise_demo/
-│-- src/
-│   ├── main/
-│   │   ├── java/demo/base
-│   │   │   ├── BaseTest.java
-│   │   ├── java/demo/pages
-│   │   │   ├── CartPage.java
-│   │   │   ├── CheckoutPage.java
-│   │   │   ├── LoginPage.java
-│   │   │   ├── ProductPage.java
-│   │   ├── java/demo/tests
-│   │   │   ├── ApiTest.java
-│   │   │   ├── DemoTest.java
-│-- pom.xml
-│-- README.md
-
 How to Run the Tests:
 
 1. Clone this repository:
-git clone https://github.com/JaviGarcia7/practical_exercise_demo.git
+    git clone https://github.com/JaviGarcia7/practical_exercise_demo.git
 2. Install dependencies using Maven:
-mvn clean install
-
+    mvn clean install
 3. Run the TestNG test suite:
-mvn test
+    mvn test
+
+How to Generate and View Allure Reports:
+
+1. Ensure Allure is installed. If not, install it using:
+    npm install -g allure-commandline --save-dev or brew install allure
+2. Run tests and generate Allure results:
+    mvn clean test
+3. Serve the Allure report:
+   allure serve target/allure-results
