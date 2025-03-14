@@ -20,7 +20,7 @@ Before running the tests, ensure you have the following installed:
 
 Project Structure:
 
-project-root/
+practical_exercise_demo/
 │-- src/
 │   ├── main/
 │   │   ├── java/demo/base
@@ -39,8 +39,7 @@ project-root/
 How to Run the Tests:
 
 1. Clone this repository:
-git clone 
-
+git clone https://github.com/JaviGarcia7/practical_exercise_demo.git
 2. Install dependencies using Maven:
 mvn clean install
 
