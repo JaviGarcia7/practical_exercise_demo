@@ -4,19 +4,19 @@ This automation framework is built using Java, Selenium, and TestNG to test the 
 SauceDemo. The framework follows the Page Object Model (POM) for better maintainability and includes 
 test cases for:
 
-○ Login (positive and negative cases)
-○ Navigation through the product catalog
-○ Adding products to the cart
-○ Complete checkout process
+- Login (positive and negative cases)
+- Navigation through the product catalog
+- Adding products to the cart
+- Complete checkout process
 
 Prerequisites:
 
 Before running the tests, ensure you have the following installed:
 
-○ Java Development Kit (JDK 11+)
-○ Maven
-○ Google Chrome (Latest version)
-○ ChromeDriver (Compatible with your Chrome version)
+- Java Development Kit (JDK 11+)
+- Maven
+- Google Chrome (Latest version)
+- ChromeDriver (Compatible with your Chrome version)
 
 How to Run the Tests:
 
