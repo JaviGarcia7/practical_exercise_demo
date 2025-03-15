@@ -1,0 +1,7 @@
+demo\pages\CheckoutPage.class
+demo\pages\ProductPage.class
+demo\tests\ApiTest.class
+demo\pages\LoginPage.class
+demo\base\BaseTest.class
+demo\pages\CartPage.class
+demo\tests\DemoTest.class

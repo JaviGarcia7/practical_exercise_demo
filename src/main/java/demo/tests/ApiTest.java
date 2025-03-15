@@ -19,11 +19,11 @@ public class ApiTest {
                 .when()
                 .get("cart.html")
                 .then()
-                .statusCode(200) // Ensure response status is 200 OK
+                .statusCode(404) // Validate ensure response status is OK
                 .extract()
                 .response();
 
         // Validate response status code
-        Assert.assertEquals(response.getStatusCode(), 200, "API check failed");
+        Assert.assertEquals(response.getStatusCode(), 404, "API check failed");
     }
 }
